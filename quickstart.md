@@ -2,7 +2,9 @@
 
 ## Kickstart Configuration
 
-It is recommended to use an A1200 kicstart ROM so we can have ZIII ram.
+It is recommended to use an A1200 kickstart ROM so we can have ZIII ram, and becasue of performance reasons it is recommended to not use the kickstart Rom on the motherboard.
+
+A Rom can be loaded from the FAT32 partition on the sdcard as seen in the example below.
 
 ```text
 
